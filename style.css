@@ -1,0 +1,79 @@
+body {
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+  background-color: #000000;
+}
+
+h1 {
+  font-size: 48px;
+  margin: 10px 0;
+  color: #eaf093;
+}
+
+#score-container {
+  margin-bottom: 10px;
+  font-size: 24px;
+  color: #e01313;
+}
+
+#board {
+  display: grid;
+  grid-template-columns: repeat(4, 100px);
+  grid-gap: 10px;
+  justify-content: center;
+  margin: 20px auto;
+}
+
+.tile {
+  width: 100px;
+  height: 100px;
+  font-size: 32px;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #0e0d0d;
+  border-radius: 5px;
+}
+
+.controls {
+  margin-top: 20px;
+}
+
+.controls button {
+  font-size: 24px;
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+  background-color: #8f7a66;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.2s;
+}
+
+.controls button:hover {
+  background-color: #000000;
+}
+
+.status-message {
+  font-size: 24px;
+  color: #fd0202;
+  margin: 10px;
+  font-weight: bold;
+}
+
+.reset-button {
+  font-size: 18px;
+  padding: 10px 20px;
+  background-color: #302f2f;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.reset-button:hover {
+  background-color: #f30606;
+}
