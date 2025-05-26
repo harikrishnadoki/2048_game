@@ -6,8 +6,8 @@ A simple and addictive web-based implementation of the classic 2048 puzzle game,
 
 ## 📷 Preview
 
-![Game Screenshot](screenshot.png)  
-<sub>*(Optional: Add a screenshot of your game and name it `screenshot.png`)*</sub>
+![Game Screenshot](Screenshot 2025-05-26 154452.png)  
+<sub>*(Optional: Add a screenshot of your game and name it `Screenshot 2025-05-26 154452.png`)*</sub>
 
 ---
 
